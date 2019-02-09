@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GuessMe</string>
+    <string name="start">START</string>
+    <string name="title_activity_how">HowActivity</string>
+    <string name="title_activity_find_opponent">FindOpponentActivity</string>
+
+</resources>

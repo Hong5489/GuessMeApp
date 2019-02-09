@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "816779423057",
+    "firebase_url": "https://guess-me-666.firebaseio.com",
+    "project_id": "guess-me-666",
+    "storage_bucket": "guess-me-666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816779423057:android:5e3e129f73eb582e",
+        "android_client_info": {
+          "package_name": "guessmypic.gmp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816779423057-a5nd8cbutture2fkism00bpk1pf7q8ap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "guessmypic.gmp",
+            "certificate_hash": "97810e6924491e3d94e3acfb4f4a916d8ccc7d34"
+          }
+        },
+        {
+          "client_id": "816779423057-lblneee4th494ijmj0ghe0epv40hoh47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "guessmypic.gmp",
+            "certificate_hash": "ece4fbd3172f4fb322d16ad764aeb9df5099c52c"
+          }
+        },
+        {
+          "client_id": "816779423057-r4ojfir6hg7vhvav8dlqmvn7apg1jc3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7sDFH6nPZXzYciVhbvW-AgZKpfb1wXKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816779423057-r4ojfir6hg7vhvav8dlqmvn7apg1jc3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4915770330085286~3467319257"
+    }
+  ],
+  "configuration_version": "1"
+}

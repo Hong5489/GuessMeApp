@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:onClick="OnAdsClick"
+                android:text="Add Coins" />
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:layout_weight="0"
+                android:background="@mipmap/ic_profile"
+                android:onClick="OnProfileClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttonclick"
+        android:onClick="onClick"
+        android:text="@string/start"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttonclick"
+        android:onClick="onClickTop"
+        android:text="TOP SCORE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttonclick"
+        android:onClick="onClickSetting"
+        android:text="SETTING"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/howtoplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttonclick"
+        android:onClick="onClickHow"
+        android:text="HOW TO PLAY"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_red_click"
+            android:onClick="onClickLogout"
+            android:text="Log Out"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

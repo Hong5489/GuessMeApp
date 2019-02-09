@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="guessmypic.gmp.EditProfileActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="109dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/displayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Enter Display Name"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="@+id/textView11"
+        app:layout_constraintRight_toRightOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/updateName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/buttonclick"
+        android:onClick="OnUpdateNameClick"
+        android:text="Update Display Name"
+        app:layout_constraintLeft_toLeftOf="@+id/displayName"
+        app:layout_constraintRight_toRightOf="@+id/displayName"
+        app:layout_constraintTop_toBottomOf="@+id/displayName" />
+</android.support.constraint.ConstraintLayout>
